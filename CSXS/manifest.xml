@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="io.mky.pref" ExtensionBundleVersion="1.0" Version="5.0">
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="io.mky.px" ExtensionBundleVersion="1.0" Version="5.0">
 	<ExtensionList>
-		<Extension Id="io.mky.pref.panel" Version="0.1.0"/>
+		<Extension Id="io.mky.px.panel" Version="0.1.0"/>
 	</ExtensionList>
 	<ExecutionEnvironment>
 		<HostList>
@@ -26,11 +26,11 @@
 			<Locale Code="All" />
 		</LocaleList>
 		<RequiredRuntimeList>
-			<RequiredRuntime Name="CSXS" Version="5.0"/>
+			<RequiredRuntime Name="CSXS" Version="5.0" />
 		</RequiredRuntimeList>
 	</ExecutionEnvironment>
 	<DispatchInfoList>
-		<Extension Id="io.mky.pref.panel">
+		<Extension Id="io.mky.px.panel">
 			<DispatchInfo>
 				<Resources>
 					<MainPath>./index.html</MainPath>
@@ -42,7 +42,7 @@
 				</Lifecycle>
 				<UI>
 					<Type>Panel</Type>
-					<Menu>Pref</Menu>
+					<Menu>PX</Menu>
 					<Geometry>
 						<Size>
 							<Height>550</Height>
